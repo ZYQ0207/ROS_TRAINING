@@ -1,0 +1,5 @@
+<launch>
+	<node name="server" pkg="beginner_test" type="add_two_ints_sever.py" />
+</launch>
+
+
