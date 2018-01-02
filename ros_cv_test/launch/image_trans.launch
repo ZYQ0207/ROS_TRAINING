@@ -1,0 +1,5 @@
+<launch>
+    <node name="iamge_receiver" pkg="ros_cv_test" type="image_converter" />
+	<node name="image_creator" pkg="ros_cv_test" type="bag_image.py" />
+	
+</launch>
